@@ -50,7 +50,7 @@ spec:
           value: |-
             -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9005
              -Dmanagement.endpoint.health.show-details="always" -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include="*" -Dmanagement.server.port="8080" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s" -Dspring.devtools.restart.enabled="true" -Dspring.devtools.restart.poll-interval="2s" -Dspring.devtools.restart.quiet-period="1s"
-        image: index.docker.io/whitewolfie/spring-petclinic-my-apps@sha256:270b5f90bd36cc663b854adfeb48640e008c424e69768e24e8212cddcc2dabf9
+        image: index.docker.io/whitewolfie/spring-petclinic-my-apps@sha256:dcbef40c665871b4ffc8d6622358dd99f6edc58f4bdce61fcaf567002473c6e0
         name: workload
         ports:
         - containerPort: 8080
